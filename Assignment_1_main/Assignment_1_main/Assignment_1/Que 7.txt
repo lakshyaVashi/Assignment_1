@@ -1,0 +1,17 @@
+2. Perimeter of a Rectangle
+Write a program to calculate the perimeter of a rectangle. Take the length
+and width as inputs and use the formula:
+Perimeter = 2 * (length + width).
+Code-:
+import java.util.Scanner;
+class R {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter length: ");
+int l = sc.nextInt();
+System.out.print("Enter width: ");
+int w = sc.nextInt();
+int perimeter = 2 * (l + w);
+System.out.println("Perimeter: " + perimeter);
+}
+}
